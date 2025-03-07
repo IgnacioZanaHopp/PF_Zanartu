@@ -1,0 +1,18 @@
+{
+  "alumnos": [
+    { "id": 1, "nombre": "Juan", "apellido": "Pérez" },
+    { "id": 2, "nombre": "María", "apellido": "Gómez" }
+  ],
+  "cursos": [
+    { "id": 1, "nombre": "Matemáticas", "descripcion": "Curso de matemáticas básicas" },
+    { "id": 2, "nombre": "Historia", "descripcion": "Historia Universal" },
+    { "id": 3, "nombre": "Inglés", "descripcion": "Curso de inglés intermedio" },
+    { "id": 4, "nombre": "Programación", "descripcion": "Introducción a la programación en JavaScript" }
+  ],
+  "clases": [
+    { "id": 1, "cursoId": 1, "profesor": "Carlos López", "horario": "Lunes y Miércoles 10:00-12:00" },
+    { "id": 2, "cursoId": 2, "profesor": "Ana Ramírez", "horario": "Martes y Jueves 14:00-16:00" },
+    { "id": 3, "cursoId": 3, "profesor": "Sofía Fernández", "horario": "Viernes 09:00-11:00" },
+    { "id": 4, "cursoId": 4, "profesor": "Luis González", "horario": "Sábados 10:00-13:00" }
+  ]
+}
